@@ -5,7 +5,8 @@
             $socials = carbon_get_theme_option('crb_socials');
             if (! empty($socials)) :
                 foreach ($socials as $social) : ?>
-                    <a href="<?php echo esc_url($social['url']); ?>" class="text-decoration-none">
+                    <a href="<?php echo esc_url($social['url']); ?>"
+                        aria-label="<?php echo esc_attr('Posetite naš ' . $social['platform'] . ' profil'); ?>" class="text-decoration-none">
                         <i class="bi bi-<?php echo esc_attr($social['platform']); ?>"></i>
                     </a>
             <?php endforeach;

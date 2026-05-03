@@ -10,6 +10,8 @@ function crb_load() {
 // 2. Učitavanje tvoje datoteke sa poljima
 require_once get_template_directory() . '/inc/options.php';
 require_once get_template_directory() . '/inc/blocks.php';
+require_once get_template_directory() . '/inc/cpt.php';
+
 
 
 // Ostatak tvojih funkcija (enqueue_scripts, setup, itd.)
