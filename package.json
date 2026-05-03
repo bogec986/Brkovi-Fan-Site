@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8"
+  },
+  "scripts": {
+    "watch": "sass --watch assets/scss/main.scss dist/main.css",
+    "build": "sass assets/scss/main.scss dist/main.css --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
