@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1"
   },
   "scripts": {
     "watch": "sass --watch assets/scss/main.scss dist/main.css",

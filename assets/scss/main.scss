@@ -5,3 +5,17 @@ $body-color: #f8f9fa;
 
 // 2. Uvoz Bootstrap-a iz node_modules
 @import "../../node_modules/bootstrap/scss/bootstrap";
+
+// 3. Uvoz Bootstrap Icons
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-src: url("../assets/fonts/bootstrap-icons.woff2") format("woff2"), 
+                           url("../assets/fonts/bootstrap-icons.woff") format("woff");
+
+// Import the Sass files as usual
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+
+// 4. Tvoj custom SCSS
+
+.bi {
+    color: $primary;
+}
