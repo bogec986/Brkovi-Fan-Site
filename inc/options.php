@@ -12,6 +12,9 @@ function crb_attach_theme_options()
             Field::make('image', 'crb_logo', __('Logo sajta')),
             Field::make('text', 'crb_telefon', __('Telefon'))->set_width(50),
             Field::make('text', 'crb_email', __('Email adresa'))->set_width(50),
+            Field::make('image', 'crb_og_image', __('SEO / Social Share Slika'))
+                ->set_help_text('Ova slika se pojavljuje kada podelite link sajta na društvenim mrežama.'),
+
         ))
         ->add_tab(__('Društvene mreže'), array(
             Field::make('complex', 'crb_socials', __('Linkovi'))
