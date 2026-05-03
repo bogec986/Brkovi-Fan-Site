@@ -1,0 +1,16 @@
+# Composer dependencies
+/vendor/
+
+# WordPress & OS specific
+.DS_Store
+Thumbs.db
+wp-config.php
+*.log
+
+# Local environment (Local by Flywheel)
+.local/
+sql/
+
+# Node modules (ako ih budeš koristio za SASS ili JS)
+node_modules/
+npm-debug.log
